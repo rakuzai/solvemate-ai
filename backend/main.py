@@ -36,7 +36,7 @@ SYSTEM_MESSAGE = {
 
 # Dictionary to store session data and timestamps
 session_data = {}
-SESSION_TIMEOUT = 60 * 5  # 12 hours in seconds
+SESSION_TIMEOUT = 60 * 60 * 12  # 12 hours in seconds
 
 @app.route('/api/chat', methods=['POST'])
 def chat():
