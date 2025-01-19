@@ -20,7 +20,6 @@ SolveMate AI is an educational assistant chatbot powered by the LLaMA 3.3 70B mo
   - Vue 3
   - Vite
   - Axios
-  - Tailwind CSS
 - Backend:
   - Python 3.8+
   - Flask
