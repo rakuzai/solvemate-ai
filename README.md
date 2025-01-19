@@ -66,7 +66,6 @@ GROQ_API_KEY=your_groq_api_key_here
 Install Node dependencies:
 
 ```bash
-cd frontend
 npm install
 ```
 
@@ -82,8 +81,32 @@ python main.py
 Start the frontend development server:
 
 ```bash
-# From the frontend directory
+[Previous content remains the same until the Running the Application section]
+
+### 4. Running the Application
+
+Start the backend server:
+
+```bash
+# From the backend/src directory
+python main.py
+```
+
+Start the frontend development server:
+
+```bash
+# Format the code first
+npm run format
+
+# Start the development server
 npm run dev
+```
+
+The application will be available at:
+- Frontend: http://localhost:5173
+- Backend: http://localhost:5000
+
+[Rest of the content remains the same]
 ```
 
 The application will be available at:
@@ -143,6 +166,5 @@ python main.py
 
 3. In a separate terminal, run the frontend development server:
 ```bash
-cd frontend
 npm run dev
 ```
