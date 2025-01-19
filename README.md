@@ -81,20 +81,6 @@ python main.py
 Start the frontend development server:
 
 ```bash
-[Previous content remains the same until the Running the Application section]
-
-### 4. Running the Application
-
-Start the backend server:
-
-```bash
-# From the backend/src directory
-python main.py
-```
-
-Start the frontend development server:
-
-```bash
 # Format the code first
 npm run format
 
@@ -105,8 +91,6 @@ npm run dev
 The application will be available at:
 - Frontend: http://localhost:5173
 - Backend: http://localhost:5000
-
-[Rest of the content remains the same]
 ```
 
 The application will be available at:
