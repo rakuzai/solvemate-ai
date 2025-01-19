@@ -3,7 +3,7 @@
 SolveMate AI is an educational assistant chatbot powered by the LLaMA 3.3 70B model through Groq's API. It helps students understand concepts and solve problems through guided learning rather than providing direct answers.
 
 ## Project Presentation & Demo
-
+[Video](https://drive.google.com/file/d/1mmgDiqfPHERuvn0aBMinNooHaiWxp5_m/view?usp=sharing)
 
 ## Features
 
