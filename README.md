@@ -92,7 +92,7 @@ npm install
 Start the backend server:
 
 ```bash
-# From the src directory
+# From the backend directory
 python main.py
 ```
 
