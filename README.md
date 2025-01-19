@@ -90,21 +90,18 @@ The application will be available at:
 - Frontend: http://localhost:5173
 - Backend: http://localhost:5000
 
-## Project Structure
+## Project Core Structure
 
 ```
 solvemate-ai/
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── Chat.vue
-│   │   └── App.vue
-│   ├── package.json
-│   └── vite.config.js
-├── main.py
-├── requirements.txt
-├── .env
-└── README.md
+├── backend/
+│   └── main.py
+├── src/
+│   ├── components/
+│   │   └── Chat.vue
+│   ├── App.vue
+│   └── main.js
+│   ├── index.html
 ```
 
 ## API Endpoints
