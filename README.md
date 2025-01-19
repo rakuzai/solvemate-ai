@@ -2,6 +2,9 @@
 
 SolveMate AI is an educational assistant chatbot powered by the LLaMA 3.3 70B model through Groq's API. It helps students understand concepts and solve problems through guided learning rather than providing direct answers.
 
+## Project Presentation & Demo
+
+
 ## Features
 
 - Real-time chat interface
@@ -31,12 +34,27 @@ SolveMate AI is an educational assistant chatbot powered by the LLaMA 3.3 70B mo
 - Conda package manager
 - Groq API key
 
+## Project Core Structure
+
+```
+solvemate-ai/
+├── backend/
+│   └── main.py
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── Chat.vue
+│   │   ├── App.vue
+│   │   └── main.js
+│   ├── public/
+│   ├── index.html
+```
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/rakuzai/solvemate-ai.git
 cd solvemate-ai
 ```
 
@@ -45,7 +63,7 @@ cd solvemate-ai
 Create and activate a Conda environment:
 
 ```bash
-conda create -n solvemate python=3.8
+conda create -n solvemate
 conda activate solvemate
 ```
 
@@ -74,7 +92,7 @@ npm install
 Start the backend server:
 
 ```bash
-# From the project root
+# From the src directory
 python main.py
 ```
 
@@ -91,25 +109,6 @@ npm run dev
 The application will be available at:
 - Frontend: http://localhost:5173
 - Backend: http://localhost:5000
-```
-
-The application will be available at:
-- Frontend: http://localhost:5173
-- Backend: http://localhost:5000
-
-## Project Core Structure
-
-```
-solvemate-ai/
-├── backend/
-│   └── main.py
-├── src/
-│   ├── components/
-│   │   └── Chat.vue
-│   ├── App.vue
-│   └── main.js
-│   ├── index.html
-```
 
 ## API Endpoints
 
@@ -119,7 +118,7 @@ solvemate-ai/
 
 ## Requirements.txt
 
-Create a `requirements.txt` file with the following dependencies:
+The `requirements.txt` file should contain:
 
 ```txt
 flask==2.0.1
