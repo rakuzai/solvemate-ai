@@ -76,7 +76,7 @@ export default {
       this.isLoading = true
 
       try {
-        const response = await axios.post('http://localhost:5000/api/chat', {
+        const response = await axios.post('https://56cba9d2-5f5f-4743-93a7-c05768acb091-00-39dzppiymdse1.sisko.replit.dev/api/chat', {
           message: messageToSend,
           session_id: this.sessionId,
         })
