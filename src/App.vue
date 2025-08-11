@@ -76,7 +76,7 @@ export default {
     },
     async deleteChat(chatId) {
       try {
-        await axios.delete(`http://localhost:5000/api/chat/${chatId}`)
+        await axios.delete(`https://56cba9d2-5f5f-4743-93a7-c05768acb091-00-39dzppiymdse1.sisko.replit.dev/api/chat/${chatId}`)
         const index = this.chats.findIndex((chat) => chat.id === chatId)
         if (index !== -1) {
           this.chats.splice(index, 1)
